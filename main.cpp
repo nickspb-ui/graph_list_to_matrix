@@ -11,7 +11,7 @@ int main() {
 	input_stream.close();
 
 	int N = edges.size(); // number of nodes
-	bool** adj_matrix = graph_list_to_matrix(edges);
+	int** adj_matrix = graph_list_to_matrix(edges);
 
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {
